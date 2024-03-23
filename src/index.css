@@ -69,6 +69,11 @@ body {
   flex-wrap: wrap;
   margin-bottom: 20px;
 }
+
+.hour-rport-and-search-container {
+  display: grid;
+}
+
 .air-conditions-container img {
   width: 25px;
   height: 25px;
@@ -129,7 +134,7 @@ body {
     width: 200px;
     height: 200px;
     left: 48%;
-    top: 80%;
+    top: 220px;
     margin-top: 0px;
     transform: translate(-50%, -50%);
     position: absolute;

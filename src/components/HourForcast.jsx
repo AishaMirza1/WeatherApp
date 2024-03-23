@@ -1,3 +1,8 @@
-export default function HourForcast() {
-  return <div>hourForcast</div>;
+export default function SearchAndHourForcast() {
+  return (
+    <div className="hour-rport-and-search-container">
+      <div></div>
+      <div></div>
+    </div>
+  );
 }
