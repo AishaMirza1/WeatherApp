@@ -2,10 +2,16 @@ import cloudImg from "../../public/cloud.png";
 import locationLogo from "../../public/logo.png";
 export default function Header() {
   return (
-    <section className="weather-app-container">
+    <>
+      {" "}
       <div className="weather-info-box1">
         <div className="location">
-          <img src={locationLogo} loading="lazy" alt="" className="logo" />
+          <img
+            src={locationLogo}
+            loading="lazy"
+            alt="weather-img"
+            className="logo"
+          />
           <p className="cityName">NewYork</p>
         </div>
         <p className="weather-keyword">Cloudy</p>
@@ -21,6 +27,6 @@ export default function Header() {
         alt=""
         className="weather-img"
       />
-    </section>
+    </>
   );
 }
