@@ -13,6 +13,7 @@ body {
   font-family: sans-serif;
   font-weight: 400;
   letter-spacing: 1.7px;
+  height: 100vh;
 }
 .weather-img {
   width: 100%;
@@ -20,10 +21,11 @@ body {
   object-fit: contain;
 }
 .weather-app-container {
-  padding: 30px 5vw;
+  padding: 30px 5vw 0;
   display: grid;
   grid-template-columns: 2.25fr 1fr;
   grid-template-rows: 220px 2.25fr;
+  gap: 30px;
 }
 .weather-info-box1 {
   display: flex;
@@ -53,7 +55,9 @@ body {
   font-size: 64px;
   font-weight: 400;
 }
-.weekReport-container {
+.weekReport-container,
+.air-conditions-container,
+.hour-report-and-search-container {
   background-color: #deab4d;
   border-radius: 40px;
   padding: 40px 20px;
